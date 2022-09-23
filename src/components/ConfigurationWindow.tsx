@@ -75,7 +75,7 @@ const ConfigurationWindow = ({save} : ConfigurationWindowProps) => {
                 <label htmlFor="preventCategory">{SETTINGS.language === 'en' ? `Prevent the same weapon type from being selected twice in a row` : `二回連続で同じ武器タイプを選びません「例えば二回連続シューターは来ない」`}</label>
               </div>
             </GeneralSettingList>
-            <div className="column warn" style={{'marginTop': '1rem'}} onClick={() => {setFilteredWeaponIds([])}}>
+            <div className="column warn" style={{'marginTop': '1rem'}} onClick={resetAllSettingsToDefault}>
               <label htmlFor="blacklist">{SETTINGS.language === 'jp' ? 'デフォルトにリセット' : 'Reset all'}</label>
             </div>
           </PageContent>
