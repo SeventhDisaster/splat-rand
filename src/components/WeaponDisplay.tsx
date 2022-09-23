@@ -27,6 +27,12 @@ const WeaponDisplay = ({weapon, displaySub=true, displaySpecial=true} : WeaponDi
           }
         </>
       </WeaponContainer>
+      <>
+        {
+          (displaySpecial && displaySub) &&
+          <p className="subtitle">{SETTINGS.language === 'jp' ? weapon.sub.name.jp : weapon.sub.name.en} + {SETTINGS.language === 'jp' ? weapon.special.name.jp : weapon.special.name.en}</p>
+        }
+      </>
     </WeaponBox>
   )
 }
@@ -60,11 +66,18 @@ const WeaponContainer = styled('span')`
     bottom: 0px;
     left: 0px
   }
-
+  
   .special {
     position: absolute;
     bottom: 0px;
     right: 0px
+  }
+
+  .subtitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
   }
 `
 

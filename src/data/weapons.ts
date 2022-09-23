@@ -399,7 +399,7 @@ export const WEAPON_LIST : Weapon[] = [
       en: 'Bloblobber',
       jp: 'オーバーフロッシャー',
     },
-    category: 'blaster',
+    category: 'slosher',
     imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Bloblobber_Flat'}`,
     sub: getSub(10),
     special: getSpecial(4),
@@ -504,7 +504,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(14),
   },
   {
-    id: 16,
+    id: 17,
     name: {
       en: 'Explosher',
       jp: 'エクスプロッシャー',
@@ -515,7 +515,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(4),
   },
   {
-    id: 17,
+    id: 18,
     name: {
       en: 'Flingza Roller',
       jp: 'ヴァリアブルローラー',
@@ -526,7 +526,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(10),
   },
   {
-    id: 18,
+    id: 19,
     name: {
       en: 'Glooga Dualies',
       jp: 'ケルビン525',
@@ -537,7 +537,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(2),
   },
   {
-    id: 19,
+    id: 20,
     name: {
       en: 'Goo Tuber',
       jp: 'ソイチューバー',
@@ -548,7 +548,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(10),
   },
   {
-    id: 20,
+    id: 21,
     name: {
       en: 'H-3 Nozzlenose',
       jp: 'H3リールガン',
@@ -559,7 +559,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(9),
   },
   {
-    id: 21,
+    id: 22,
     name: {
       en: 'Heavy Splatling',
       jp: 'バレルスピナー',
@@ -570,7 +570,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(14),
   },
   {
-    id: 22,
+    id: 23,
     name: {
       en: 'Hero Shot Replica',
       jp: 'ヒーローシューター レプリカ',
@@ -581,7 +581,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(12),
   },
   {
-    id: 23,
+    id: 24,
     name: {
       en: 'Hydra Splatling',
       jp: 'ハイドラント',
@@ -592,7 +592,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(2),
   },
   {
-    id: 24,
+    id: 25,
     name: {
       en: 'Inkbrush',
       jp: 'パブロ',
@@ -603,7 +603,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(7),
   },
   {
-    id: 25,
+    id: 26,
     name: {
       en: 'Jet Squelcher',
       jp: 'ジェットスイーパー',
@@ -614,7 +614,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(5),
   },
   {
-    id: 26,
+    id: 27,
     name: {
       en: 'L-3 Nozzlenose',
       jp: 'L3リールガン',
@@ -625,7 +625,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(3),
   },
   {
-    id: 27,
+    id: 28,
     name: {
       en: 'Luna Blaster',
       jp: 'ノヴァブラスター',
@@ -636,7 +636,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(4),
   },
   {
-    id: 28,
+    id: 29,
     name: {
       en: 'Mini Splatling',
       jp: 'スプラスピナー',
@@ -647,7 +647,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(13),
   },
   {
-    id: 29,
+    id: 30,
     name: {
       en: 'N-ZAP \'85',
       jp: 'N-ZAP85',
@@ -658,7 +658,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(9),
   },
   {
-    id: 30,
+    id: 31,
     name: {
       en: 'Nautilus 47',
       jp: 'ノーチラス47',
@@ -669,7 +669,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(4),
   },
   {
-    id: 31,
+    id: 32,
     name: {
       en: 'Octobrush',
       jp: 'ホクサイ',
@@ -680,7 +680,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(15),
   },
   {
-    id: 32,
+    id: 33,
     name: {
       en: 'REEF-LUX 450',
       jp: 'LACT-450',
@@ -691,7 +691,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(10),
   },
   {
-    id: 33,
+    id: 34,
     name: {
       en: 'Range Blaster',
       jp: 'ロングブラスター',
@@ -702,7 +702,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(14),
   },
   {
-    id: 34,
+    id: 35,
     name: {
       en: 'Rapid Blaster',
       jp: 'ラピッドブラスター',
@@ -713,7 +713,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(11),
   },
   {
-    id: 35,
+    id: 36,
     name: {
       en: 'Rapid Blaster Pro',
       jp: 'Rブラスターエリート',
@@ -724,7 +724,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(5),
   },
   {
-    id: 36,
+    id: 37,
     name: {
       en: 'Slosher',
       jp: 'バケットスロッシャー',
@@ -735,7 +735,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(11),
   },
   {
-    id: 37,
+    id: 38,
     name: {
       en: 'Sloshing Machine',
       jp: 'スクリュースロッシャー',
@@ -746,7 +746,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(2),
   },
   {
-    id: 38,
+    id: 39,
     name: {
       en: 'Splash-o-matic',
       jp: 'シャープマーカー',
@@ -757,7 +757,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(3),
   },
   {
-    id: 39,
+    id: 40,
     name: {
       en: 'Splat Brella',
       jp: 'パラシェルター',
@@ -768,7 +768,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(11),
   },
   {
-    id: 40,
+    id: 41,
     name: {
       en: 'Splat Charger',
       jp: 'スプラチャージャー',
@@ -779,7 +779,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(5),
   },
   {
-    id: 41,
+    id: 42,
     name: {
       en: 'Splat Dualies',
       jp: 'スプラマニューバー',
@@ -790,7 +790,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(3),
   },
   {
-    id: 42,
+    id: 43,
     name: {
       en: 'Splat Roller',
       jp: 'スプラローラー',
@@ -801,7 +801,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(1),
   },
   {
-    id: 43,
+    id: 44,
     name: {
       en: 'Splatana Stamper',
       jp: 'ジムワイパー',
@@ -812,7 +812,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(15),
   },
   {
-    id: 44,
+    id: 45,
     name: {
       en: 'Splatana Wiper',
       jp: 'ドライブワイパー',
@@ -823,7 +823,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(13),
   },
   {
-    id: 45,
+    id: 46,
     name: {
       en: 'Splatterscope',
       jp: 'スプラスコープ',
@@ -834,7 +834,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(5),
   },
   {
-    id: 46,
+    id: 47,
     name: {
       en: 'Splattershot',
       jp: 'スプラシューター',
@@ -845,7 +845,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(12),
   },
   {
-    id: 47,
+    id: 48,
     name: {
       en: 'Splattershot Jr.',
       jp: 'わかばシューター',
@@ -856,7 +856,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(1),
   },
   {
-    id: 48,
+    id: 49,
     name: {
       en: 'Splattershot Pro',
       jp: 'プライムシューター',
@@ -867,7 +867,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(3),
   },
   {
-    id: 49,
+    id: 50,
     name: {
       en: 'Sploosh-o-matic',
       jp: 'ボールドマーカー',
@@ -878,7 +878,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(13),
   },
   {
-    id: 50,
+    id: 51,
     name: {
       en: 'Squeezer',
       jp: 'ボトルガイザー',
@@ -889,7 +889,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(12),
   },
   {
-    id: 51,
+    id: 52,
     name: {
       en: 'Tenta Brella',
       jp: 'キャンピングシェルター',
@@ -900,7 +900,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(5),
   },
   {
-    id: 52,
+    id: 53,
     name: {
       en: 'Tri-Slosher',
       jp: 'ヒッセン',
@@ -911,7 +911,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(6),
   },
   {
-    id: 53,
+    id: 54,
     name: {
       en: 'Tri-Stringer',
       jp: 'トライストリンガー',
@@ -922,7 +922,7 @@ export const WEAPON_LIST : Weapon[] = [
     special: getSpecial(7),
   },
   {
-    id: 54,
+    id: 55,
     name: {
       en: 'Undercover Brella',
       jp: 'スパイガジェット',

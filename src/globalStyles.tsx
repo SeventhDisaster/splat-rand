@@ -58,15 +58,15 @@ const GlobalStyle = createGlobalStyle`
         width: 80%;
         margin: auto;
 
-    .lightSVG {
+    .lightSVG > path, .cls-1 > path {
         fill: #ececec
     }
 
-    .lightSVG > path {
+    .lightSVG > path, .cls-1 > path {
         fill: #ececec
     }
 
-
+    
 }
 
 `

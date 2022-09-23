@@ -20,6 +20,7 @@ export let SETTINGS : Settings = {
  * @param settings Remember to pass in the full new settings object
  */
 export const setLocalSettings = (settings : Settings) => {
+  SETTINGS = settings;
   window.localStorage.setItem('randomsplatconfig', JSON.stringify(settings))
 }
 
@@ -27,6 +28,17 @@ const getLocalSettings = () => {
   const storage = window.localStorage.getItem('randomsplatconfig');
   if(storage) {
     SETTINGS = JSON.parse(storage);
+  }
+  setDefaultLanguageFromURL()
+}
+
+const setDefaultLanguageFromURL = () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const languageParameter = urlParams.get('lang');
+
+  if(languageParameter === 'jp') {
+    SETTINGS.language = 'jp'
+    setLocalSettings(SETTINGS)
   }
 }
 
