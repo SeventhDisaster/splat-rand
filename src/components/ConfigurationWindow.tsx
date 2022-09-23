@@ -95,7 +95,7 @@ const ConfigurationWindow = ({save} : ConfigurationWindowProps) => {
             </div>
             <WeaponSelection>
             {
-              WEAPON_LIST.sort((wa, wb) => wa.category > wb.category ? 1 : -1).map((weapon) => {
+              WEAPON_LIST.sort((wa, wb) => [wa.category, wa.id] > [wb.category, wb.id] ? 1 : -1).map((weapon) => {
                 return <WeaponCheckbox className={
                   useFilter === 'blacklist' ?
                   filteredWeaponIds.includes(weapon.id) ? 'blacklisted' : ''

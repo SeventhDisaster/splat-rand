@@ -633,7 +633,7 @@ export const WEAPON_LIST : Weapon[] = [
     category: 'blaster',
     imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Luna_Blaster_Flat'}`,
     sub: getSub(1),
-    special: getSpecial(4),
+    special: getSpecial(15),
   },
   {
     id: 29,
