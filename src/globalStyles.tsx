@@ -5,6 +5,10 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    .highlight {
+        color: #7999fa
+    }
+
     /* width */
     ::-webkit-scrollbar {
         width: 10px;

@@ -36,6 +36,9 @@ const Home = () => {
 
     return (
         <div>
+            <VersionDisplay>
+               Updated: 2.0.0 - Chill Season Weapons Added
+            </VersionDisplay>
             <LanguageToggleContainer onClick={toggleLanguage}>
                 <img className="special" src={SETTINGS.language === 'jp' ? `${process.env.PUBLIC_URL + '/images/flags/united-kingdom.png'}` : `${process.env.PUBLIC_URL + '/images/flags/japan.png'}`} alt={SETTINGS.language === 'jp' ? 'Change language to Japanese' : 'Change language to English'} height="30px"/>
             </LanguageToggleContainer>
@@ -159,6 +162,13 @@ const LanguageToggleContainer = styled('div')`
     cursor: pointer;
     top: .5rem;
     right: 1rem;
+`
+
+const VersionDisplay = styled('div')`
+    position: absolute;
+    color: #ffff93;
+    bottom: .5rem;
+    left: 1rem;
 `
 
 export default Home
