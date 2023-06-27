@@ -293,6 +293,22 @@ export const SPECIAL_LIST : SpecialWeapon[] = [
     },
     imgUrl: `${process.env.PUBLIC_URL + '/images/specials/S3_Weapon_Special_Zipcaster'}`, 
   },
+  {
+    id: 16,
+    name: {
+      en: 'Kraken Royale',
+      jp: 'テイオウイカ',
+    },
+    imgUrl: `${process.env.PUBLIC_URL + '/images/specials/S3_Weapon_Special_Kraken_Royale'}`, 
+  },
+  {
+    id: 17,
+    name: {
+      en: 'Super Chump',
+      jp: 'デコイチラシ',
+    },
+    imgUrl: `${process.env.PUBLIC_URL + '/images/specials/S3_Weapon_Special_Super_Chump'}`, 
+  }
 ]
 
 /**
@@ -313,6 +329,8 @@ export const SPECIAL_LIST : SpecialWeapon[] = [
  * * 13 = Ultra Stamp
  * * 14 = Wave Breaker
  * * 15 = Zipcaster
+ * * 16 = Kraken Royale
+ * * 17 = Super Chump
  * @returns The special that matches the ID
  */
 export const getSpecial = (id: number) : SpecialWeapon => {
@@ -1074,5 +1092,258 @@ export const WEAPON_LIST : Weapon[] = [
     imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Inkbrush_Nouveau_Flat'}`,
     sub: getSub(6),
     special: getSpecial(13),
+  },
+  {
+    id: 69,
+    name: {
+      en: 'Krak-On Splat Roller',
+      jp: 'スプラローラーコラボ',
+    },
+    category: 'roller',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Krak-On_Splat_Roller_Flat'}`,
+    sub: getSub(11),
+    special: getSpecial(16),
+  },
+  {
+    id: 70,
+    name: {
+      en: '.96 Gal Deco',
+      jp: '.96ガロンデコ',
+    },
+    category: 'shooter',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_.96_Gal_Deco_Flat'}`,
+    sub: getSub(9),
+    special: getSpecial(16),
+  },
+  {
+    id: 71,
+    name: {
+      en: 'N-ZAP \'89',
+      jp: 'N-ZAP89',
+    },
+    category: 'shooter',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_N-ZAP_\'89_Flat'}`,
+    sub: getSub(5),
+    special: getSpecial(17),
+  },
+  {
+    id: 71,
+    name: {
+      en: 'Clash Blaster Neo',
+      jp: 'クラッシュブラスターネオ',
+    },
+    category: 'blaster',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Clash_Blaster_Neo_Flat'}`,
+    sub: getSub(4),
+    special: getSpecial(17),
+  },
+  {
+    id: 72,
+    name: {
+      en: 'Z+F Splat Charger',
+      jp: 'スプラチャージャーコラボ',
+    },
+    category: 'charger',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Z+F_Splat_Charger_Flat'}`,
+    sub: getSub(9),
+    special: getSpecial(11),
+  },
+  {
+    id: 73,
+    name: {
+      en: 'Z+F Splatterscope',
+      jp: 'スプラスコープコラボ',
+    },
+    category: 'charger',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Z+F_Splatterscope_Flat'}`,
+    sub: getSub(9),
+    special: getSpecial(11),
+  },
+  {
+    id: 74,
+    name: {
+      en: 'L3 Nozzlenose D',
+      jp: 'L3リールガンD',
+    },
+    category: 'shooter',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_L-3_Nozzlenose_D_Flat'}`,
+    sub: getSub(3),
+    special: getSpecial(13),
+  },
+  {
+    id: 75,
+    name: {
+      en: 'Rapid Blaster Deco',
+      jp: 'ラピッドブラスターデコ',
+    },
+    category: 'blaster',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Rapid_Blaster_Deco_Flat'}`,
+    sub: getSub(13),
+    special: getSpecial(6),
+  },
+  {
+    id: 76,
+    name: {
+      en: 'Neo Splash-o-matic',
+      jp: 'シャープマーカーネオ',
+    },
+    category: 'shooter',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Neo_Splash-o-matic_Flat'}`,
+    sub: getSub(2),
+    special: getSpecial(11),
+  },
+  {
+    id: 77,
+    name: {
+      en: 'Neo Sploosh-o-matic',
+      jp: 'ボールドマーカーネオ',
+    },
+    category: 'shooter',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Neo_Sploosh-o-matic_Flat'}`,
+    sub: getSub(11),
+    special: getSpecial(7),
+  },
+  {
+    id: 78,
+    name: {
+      en: 'Custom Jet Squelcher',
+      jp: 'ジェットスイーパーカスタム',
+    },
+    category: 'shooter',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Custom_Jet_Squelcher_Flat'}`,
+    sub: getSub(7),
+    special: getSpecial(4),
+  },
+  {
+    id: 79,
+    name: {
+      en: 'Tri-Slosher Nouveau',
+      jp: 'ヒッセン・ヒュー',
+    },
+    category: 'slosher',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Tri-Slosher_Nouveau_Flat'}`,
+    sub: getSub(12),
+    special: getSpecial(9),
+  },
+  {
+    id: 80,
+    name: {
+      en: 'Painbrush',
+      jp: 'フィンセント',
+    },
+    category: 'brush',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Painbrush_Flat'}`,
+    sub: getSub(4),
+    special: getSpecial(14),
+  },
+  {
+    id: 81,
+    name: {
+      en: 'S-BLAST \'92',
+      jp: 'S-BLAST92',
+    },
+    category: 'blaster',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_S-BLAST_\'92_Flat'}`,
+    sub: getSub(10),
+    special: getSpecial(8),
+  },
+  {
+    id: 82,
+    name: {
+      en: 'Tenta Sorella Brella',
+      jp: 'キャンピングシェルターソレーラ',
+    },
+    category: 'brella',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Tenta_Sorella_Brella_Flat'}`,
+    sub: getSub(6),
+    special: getSpecial(12),
+  },
+  {
+    id: 83,
+    name: {
+      en: 'Custom Dualie Squelchers',
+      jp: 'デュアルスイーパーカスタム',
+    },
+    category: 'dualie',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Custom_Dualie_Squelchers_Flat'}`,
+    sub: getSub(11),
+    special: getSpecial(17),
+  },
+  {
+    id: 84,
+    name: {
+      en: 'Light Tetra Dualies',
+      jp: 'クアッドホッパーホワイト',
+    },
+    category: 'dualie',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Light_Tetra_Dualies_Flat'}`,
+    sub: getSub(10),
+    special: getSpecial(15),
+  },
+  {
+    id: 85,
+    name: {
+      en: 'Heavy Splatling Deco',
+      jp: 'バレルスピナーデコ',
+    },
+    category: 'splatling',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Heavy_Splatling_Deco_Flat'}`,
+    sub: getSub(8),
+    special: getSpecial(16),
+  },
+  {
+    id: 86,
+    name: {
+      en: 'H-3 Nozzlenose D',
+      jp: 'H3リールガンD',
+    },
+    category: 'shooter',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_H-3_Nozzlenose_D_Flat'}`,
+    sub: getSub(9),
+    special: getSpecial(1),
+  },
+  {
+    id: 87,
+    name: {
+      en: 'Rapid Blaster Pro Deco',
+      jp: 'Rブラスターエリートデコ',
+    },
+    category: 'blaster',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Rapid_Blaster_Pro_Deco_Flat'}`,
+    sub: getSub(14),
+    special: getSpecial(7),
+  },
+  {
+    id: 88,
+    name: {
+      en: 'Splatana Wiper Deco',
+      jp: 'ドライブワイパーデコ',
+    },
+    category: 'splatana',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Splatana_Wiper_Deco_Flat'}`,
+    sub: getSub(11),
+    special: getSpecial(10),
+  },
+  {
+    id: 89,
+    name: {
+      en: 'Annaki Splattershot Nova',
+      jp: 'スペースシューターコラボ',
+    },
+    category: 'shooter',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Annaki_Splattershot_Nova_Flat'}`,
+    sub: getSub(6),
+    special: getSpecial(6),
+  },
+  {
+    id: 90,
+    name: {
+      en: 'Big Swig roller Express',
+      jp: 'ワイドローラーコラボ',
+    },
+    category: 'roller',
+    imgUrl:  `${process.env.PUBLIC_URL + '/images/weapons/S3_Weapon_Main_Big_Swig_Roller_Express_Flat'}`,
+    sub: getSub(14),
+    special: getSpecial(4),
   },
 ]
