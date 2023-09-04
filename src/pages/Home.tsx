@@ -37,7 +37,7 @@ const Home = () => {
     return (
         <div>
             <VersionDisplay>
-               Updated: 4.0.0 - Sizzle Season Weapons Added
+               Updated: 4.1.0 - Drizzle Season 2023 Weapons Added
             </VersionDisplay>
             <LanguageToggleContainer onClick={toggleLanguage}>
                 <img className="special" src={SETTINGS.language === 'jp' ? `${process.env.PUBLIC_URL + '/images/flags/united-kingdom.png'}` : `${process.env.PUBLIC_URL + '/images/flags/japan.png'}`} alt={SETTINGS.language === 'jp' ? 'Change language to Japanese' : 'Change language to English'} height="30px"/>
@@ -166,7 +166,7 @@ const LanguageToggleContainer = styled('div')`
 
 const VersionDisplay = styled('div')`
     position: absolute;
-    color: #72ff98;
+    color: #dfb6ff;
     bottom: .5rem;
     left: 1rem;
 `
