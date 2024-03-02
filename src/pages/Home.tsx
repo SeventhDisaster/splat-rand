@@ -166,7 +166,7 @@ const LanguageToggleContainer = styled('div')`
 
 const VersionDisplay = styled('div')`
     position: absolute;
-    color: #8feaff;
+    color: #8fffb6;
     bottom: .5rem;
     left: 1rem;
 `
